@@ -1,2 +1,5 @@
 # Projeto-Html
-O projeto inicial tem como objetivo fixar o aprendizado das aulas. Nelas tivemos o contato com vários conceitos básicos de HTML5 como sua estrutura básica, suas principais tags, alguns atributos e alguns elementos.
+A ideia deste Desafio de Projeto é elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas:
+ 
+Utilizar todas as tags explicadas nas aulas: <h1> até <h6>, <p>, <mark>, <small>, <i>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>, <sub>, <sup>, <blockquote>;
+Utilizar novas tags sugeridas: <font>, <del>, <p>, <abbr> (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto).
