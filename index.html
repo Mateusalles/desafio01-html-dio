@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>O básico sobre HTML5</title>
+</head>
+
+<body>
+    <h1>Começando a entender o Html</h1>
+    <hr>
+    <ol>
+        <li>
+            <a href="#Estrurua-basica">Esrutura Básica</a></li>
+        <li><a href="#tags">Tags</a></li>
+        <li><a href="#atributos">Atributos</a></li>
+        <li><a href="#lo-lu">Listas Ordenadas e Listas não Ordenadas</a></li>
+
+    </ol>
+    <h2 id="Estrurua-basica">Esrutura Básica</h2>
+    <p>O documento HTML <mark>sempre inicia</mark> com o que chamamos de estrutura básica. Esta estrutura é quase que imutável. Sempre será dessa forma e você sempre começará seu HTML por esse código "raiz".</p>
+    <p>É possível compreender o documento em HTML de uma maneira muito simples, através de uma divisão de blocos das tags essenciais, conforme a a seguinte estrutura:</p>
+    <ul>
+        <li>Definição do documento (doctype)</li>
+        <li>Cabeça (head)</li>
+        <li>Corpo (body)</li>
+    </ul>
+    <h5>Doctype</h5>
+    <p>
+        <font color="red">Uma coisa importante</font>: <i>SEMPRE</i> deve existir o doctype, que é este código
+        <!DOCTYPE html>. <u>O <strong>doctype</strong> não é uma tag HTML</u>, mas uma instrução para o navegador e outros programas que podem ler seu site, que o código encontrado ali é um código HTML. Assim eles sabem o que fazer para mostrar seu site da melhor forma
+        possível. Lembre-se: o doctype é <abbr title="OBRIGATÓRIO">Obg</abbr> e deve ser sempre a PRIMEIRA LINHA do seu documento.</p>
+
+    <h5>Head</h5>
+    <p>Contém informações que não são transpostas visivelmente para o usuário/leitor do documento. São dados implícitos, de uso e controle do documento: vinculação com outros arquivos, aplicação de lógica de programação de scripts e metadados. Na prática,
+        todo o conteúdo do cabeçalho fica delimitado entre a abertura e fechamento tag head.</p>
+
+    <h5>Body</h5>
+    <p>Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor do documento. É todo e qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia de saída (imagens, sons, miniaplicativos embutidos, conteúdo
+        multimídia, etc). Além disso, toda a apresentação de entrada de dados (formulários) também se aplica neste seção do documento. Na prática, o corpo do documento é delimitado pelo par de tags
+        <.body>
+            <./body>. Este é o preceito básico que deve estar muito bem claro para você: onde as marcações se aplicam, e quais são os resultados deste modelo. Por exemplo: se vocês deseja informar conteúdo textual para saída legível ao usuário do seu sistema
+                web, esta marcação deverá obrigatoriamente estar no bloco do corpo da página. Ainda: para definir qual o tipo de codificação da página (uma meta informação do documento), esta deve obrigatoriamente estar marcada no cabeçalho do mesmo documento.
+                Dentro do elemento BODY sua estrutura de página terá os elementos semânticos da construção da sua página, onde serão declarados e identificados cabeçalhos, rodapé, conteúdo principal, etc.</p>
+
+    <h2 id="tags">Tags</h2>
+    <p>Tags são o conjunto de caracteres que formam um elemento. Existem dois tipos de Tags, as que necessitam de fechamento e as que não necessitam de fechamento. Para as que necessitam de fechamento, utilizamos o sinal de menor (
+        <), seguido do nome do elemento e o sinal de maior (>) para abertura. Para fechamento, utilizamos o sinal de menor (
+            <), seguido de barra ( / ), nome do elemento e o sinal de maior (> ).</p>
+    <p>Os elementos que não necessitam de fechamento, também conhecidos como elementos vazios, somente utilizamos o sinal de menor (
+        < ), seguido do nome do elemento e o sinal de maior (> ).</p>
+
+    <h2 id="atributos">Atributos</h2>
+    <p>Atributos são informações que passamos na Tag para que ela se comporte da maneira esperada. Existem atributos globais (que funcionam em todas as Tags) e específicos (que são direcionados para cada Tag, através de especificação). Os Atributos possuem
+        nome e um valor, existem Atributos que você vai usar praticamente sempre e existem outros que serão mais raros.</p>
+
+    <h2 id="lo-lu">Listas Ordenadas e Listas não ordenadas</h2>
+    <p>A principal diferença entre a lista ordenada e a lista não-ordenada está na maneira com que os itens de cada lista são apresentados - a lista ordenada enumera os elementos; a lista não-ordenada coloca marcadores antes de cada elemento.</p>
+</body>
+
+</html>
